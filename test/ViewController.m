@@ -7,10 +7,12 @@
 //
 
 #import "ViewController.h"
+#import <BuddyBuildSDK/BuddyBuildSDK.h>
+#import "Glimpse.h"
 
 @interface ViewController ()
 
-
+@property (nonatomic, strong) Glimpse *glimpse;
 @end
 
 @implementation ViewController
@@ -18,6 +20,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+	
+//	NSLog(@"EMAIL:%@",[BuddyBuildSDK userEmail]);
+//    NSLog(@"%@",[BuddyBuildSDK buildNumber]);
+}
+
+- (void) viewDidAppear:(BOOL)animated {
+	[super viewDidAppear:animated];
+	// Create a new Glimpse object.
+//	self.glimpse = [[Glimpse alloc] init];
+//
+//	// Start recording and tell Glimpse what to do when you are finished
+//	[self.glimpse startRecordingView:self.view onCompletion:^(NSURL *fileOuputURL) {
+//		NSLog(@"DONE WITH OUTPUT: %@", fileOuputURL.absoluteString);
+//	}];
+
 }
 
 - (IBAction)pressedButton:(id)sender {
@@ -33,6 +50,11 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (void) viewWillDisappear:(BOOL)animated {
+	[super viewWillDisappear:animated];
+//	[self.glimpse stop];
+
 }
 
 @end

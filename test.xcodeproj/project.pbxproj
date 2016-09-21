@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F1E6B1F1D849EB300866A4E /* Glimpse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E6B1C1D849EB300866A4E /* Glimpse.m */; };
+		9F1E6B201D849EB300866A4E /* GlimpseAssetWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E6B1E1D849EB300866A4E /* GlimpseAssetWriter.m */; };
 		9F2D01641CD1D08C000F1081 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2D01631CD1D08C000F1081 /* AVFoundation.framework */; };
 		9F2D01661CD1D0BA000F1081 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2D01651CD1D0BA000F1081 /* CoreMedia.framework */; };
 		9F2D01681CD1D0D2000F1081 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2D01671CD1D0D2000F1081 /* AssetsLibrary.framework */; };
 		9F2D01731CD58B53000F1081 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2D01721CD58B53000F1081 /* ViewController2.m */; };
+		9F4315D01D4D475B009B6DE6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F4315CF1D4D475B009B6DE6 /* Info.plist */; };
+		9F4315D21D4D4CF6009B6DE6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4315D11D4D4CF6009B6DE6 /* CoreTelephony.framework */; };
+		9F4315D41D4D4D07009B6DE6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4315D31D4D4D07009B6DE6 /* SystemConfiguration.framework */; };
 		9F93DA131CA9A3DE004C2DDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F93DA121CA9A3DE004C2DDA /* main.m */; };
 		9F93DA161CA9A3DE004C2DDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F93DA151CA9A3DE004C2DDA /* AppDelegate.m */; };
 		9F93DA191CA9A3DE004C2DDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F93DA181CA9A3DE004C2DDA /* ViewController.m */; };
@@ -18,14 +23,22 @@
 		9F93DA1E1CA9A3DE004C2DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F93DA1D1CA9A3DE004C2DDA /* Assets.xcassets */; };
 		9F93DA211CA9A3DE004C2DDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F93DA1F1CA9A3DE004C2DDA /* LaunchScreen.storyboard */; };
 		9F93DA291CA9A4AE004C2DDA /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F93DA281CA9A4AE004C2DDA /* BuddyBuildSDK.framework */; };
+		9FA2F1A21D6638C700B774DF /* CatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2F1A11D6638C700B774DF /* CatCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F1E6B1B1D849EB300866A4E /* Glimpse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Glimpse.h; sourceTree = "<group>"; };
+		9F1E6B1C1D849EB300866A4E /* Glimpse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Glimpse.m; sourceTree = "<group>"; };
+		9F1E6B1D1D849EB300866A4E /* GlimpseAssetWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlimpseAssetWriter.h; sourceTree = "<group>"; };
+		9F1E6B1E1D849EB300866A4E /* GlimpseAssetWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlimpseAssetWriter.m; sourceTree = "<group>"; };
 		9F2D01631CD1D08C000F1081 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		9F2D01651CD1D0BA000F1081 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		9F2D01671CD1D0D2000F1081 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		9F2D01711CD58B53000F1081 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
 		9F2D01721CD58B53000F1081 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		9F4315CF1D4D475B009B6DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Info.plist; sourceTree = "<group>"; };
+		9F4315D11D4D4CF6009B6DE6 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9F4315D31D4D4D07009B6DE6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9F93DA0E1CA9A3DE004C2DDA /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F93DA121CA9A3DE004C2DDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9F93DA141CA9A3DE004C2DDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -35,8 +48,10 @@
 		9F93DA1B1CA9A3DE004C2DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F93DA1D1CA9A3DE004C2DDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F93DA201CA9A3DE004C2DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9F93DA221CA9A3DE004C2DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F93DA221CA9A3DE004C2DDA /* Info3.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info3.plist; sourceTree = "<group>"; };
 		9F93DA281CA9A4AE004C2DDA /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = SOURCE_ROOT; };
+		9FA2F1A01D6638C700B774DF /* CatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatCell.h; sourceTree = "<group>"; };
+		9FA2F1A11D6638C700B774DF /* CatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4315D41D4D4D07009B6DE6 /* SystemConfiguration.framework in Frameworks */,
+				9F4315D21D4D4CF6009B6DE6 /* CoreTelephony.framework in Frameworks */,
 				9F2D01681CD1D0D2000F1081 /* AssetsLibrary.framework in Frameworks */,
 				9F2D01661CD1D0BA000F1081 /* CoreMedia.framework in Frameworks */,
 				9F2D01641CD1D08C000F1081 /* AVFoundation.framework in Frameworks */,
@@ -57,6 +74,8 @@
 		9F93DA051CA9A3DE004C2DDA = {
 			isa = PBXGroup;
 			children = (
+				9F4315D31D4D4D07009B6DE6 /* SystemConfiguration.framework */,
+				9F4315D11D4D4CF6009B6DE6 /* CoreTelephony.framework */,
 				9F2D01671CD1D0D2000F1081 /* AssetsLibrary.framework */,
 				9F2D01651CD1D0BA000F1081 /* CoreMedia.framework */,
 				9F2D01631CD1D08C000F1081 /* AVFoundation.framework */,
@@ -81,12 +100,19 @@
 				9F93DA151CA9A3DE004C2DDA /* AppDelegate.m */,
 				9F93DA171CA9A3DE004C2DDA /* ViewController.h */,
 				9F93DA181CA9A3DE004C2DDA /* ViewController.m */,
+				9F1E6B1B1D849EB300866A4E /* Glimpse.h */,
+				9F1E6B1C1D849EB300866A4E /* Glimpse.m */,
+				9F1E6B1D1D849EB300866A4E /* GlimpseAssetWriter.h */,
+				9F1E6B1E1D849EB300866A4E /* GlimpseAssetWriter.m */,
 				9F2D01711CD58B53000F1081 /* ViewController2.h */,
 				9F2D01721CD58B53000F1081 /* ViewController2.m */,
+				9FA2F1A01D6638C700B774DF /* CatCell.h */,
+				9FA2F1A11D6638C700B774DF /* CatCell.m */,
 				9F93DA1A1CA9A3DE004C2DDA /* Main.storyboard */,
 				9F93DA1D1CA9A3DE004C2DDA /* Assets.xcassets */,
 				9F93DA1F1CA9A3DE004C2DDA /* LaunchScreen.storyboard */,
-				9F93DA221CA9A3DE004C2DDA /* Info.plist */,
+				9F4315CF1D4D475B009B6DE6 /* Info.plist */,
+				9F93DA221CA9A3DE004C2DDA /* Info3.plist */,
 				9F93DA111CA9A3DE004C2DDA /* Supporting Files */,
 			);
 			path = test;
@@ -162,6 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4315D01D4D475B009B6DE6 /* Info.plist in Resources */,
 				9F93DA211CA9A3DE004C2DDA /* LaunchScreen.storyboard in Resources */,
 				9F93DA1E1CA9A3DE004C2DDA /* Assets.xcassets in Resources */,
 				9F93DA1C1CA9A3DE004C2DDA /* Main.storyboard in Resources */,
@@ -192,6 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1E6B201D849EB300866A4E /* GlimpseAssetWriter.m in Sources */,
+				9FA2F1A21D6638C700B774DF /* CatCell.m in Sources */,
+				9F1E6B1F1D849EB300866A4E /* Glimpse.m in Sources */,
 				9F93DA191CA9A3DE004C2DDA /* ViewController.m in Sources */,
 				9F2D01731CD58B53000F1081 /* ViewController2.m in Sources */,
 				9F93DA161CA9A3DE004C2DDA /* AppDelegate.m in Sources */,
@@ -324,6 +354,7 @@
 				INFOPLIST_FILE = test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BALDYS.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -346,6 +377,7 @@
 				INFOPLIST_FILE = test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BALDYS.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

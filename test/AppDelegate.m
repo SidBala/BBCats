@@ -18,8 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    [BuddyBuildSDK setUserDisplayNameCallback:^(NSString* username){
+//	
+//        return @"meow";
+//        
+//    }];
 
-    [BuddyBuildSDK setup];
+	[BuddyBuildSDK setup];
    
 
 
